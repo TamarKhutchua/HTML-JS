@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  padding: 25px 50px;
+  margin: 50px 50px;
+  border: none;
+  background-color: turquoise;
+  border-radius: 20px;
+}
+img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  width: 100%;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+  gap: 20px;
+}
+
+.card {
+  max-width: 620px;
+  width: 100%;
+  padding: 15px;
+}
+
+.imgContainer img {
+  max-width: 600px;
+  width: 100%;
+  max-height: 400px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.txt {
+  margin: 10px 0 30px 0;
+}
+
+.buttons {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.green {
+  background-color: green;
+  width: 100px;
+  border: none;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.pink {
+  background-color: pink;
+  width: 100px;
+  border: none;
+  padding: 5px;
+  font-size: 12px;
+}
